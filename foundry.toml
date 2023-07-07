@@ -1,6 +1,18 @@
 [profile.default]
-src = "src"
-out = "out"
-libs = ["lib"]
+solc = '0.8.19'
+src = 'src'
+out = 'out'
+libs = ['lib']
+
+# https://book.getfoundry.sh/reference/config/solidity-compiler#remappings
+remappings = [
+    "ds-test/=lib/forge-std/lib/ds-test/src/",
+    "forge-std/=lib/forge-std/src/",
+    "chainlink/=lib/chainlink-brownie-contracts/",
+    "openzeppelin/=lib/openzeppelin-contracts/",
+]
+
+# https://book.getfoundry.sh/forge/gas-reports
+gas_reports = ["*"]
 
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config

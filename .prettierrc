@@ -1,0 +1,23 @@
+{
+  "overrides": [
+    {
+      "files": ["*.yaml", "*.json"],
+      "options": {
+        "tabWidth": 4,
+        "signleQuote": false
+      }
+    },
+    {
+      "files": "*.sol",
+      "options": {
+        "semi": true,
+        "printWidth": 80,
+        "tabWidth": 4,
+        "bracketSpacing": false,
+        "explicitTypes": "always",
+        "useTabs": false,
+        "compiler": "0.8.19"
+      }
+    }
+  ]
+}

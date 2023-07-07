@@ -1,0 +1,24 @@
+{
+    "plugins": ["prettier"],
+    "rules": {
+        "avoid-low-level-calls": "warn",
+        "code-complexity": ["warn", 15],
+        "compiler-version": ["error", "0.8.19"],
+        "const-name-snakecase": "error",
+        "constructor-syntax": "warn",
+        "contract-name-camelcase": "error",
+        "event-name-camelcase": "error",
+        "func-visibility": ["warn", { "ignoreConstructors": true }],
+        "func-name-mixedcase": "off",
+        "func-param-name-mixedcase": "error",
+        "function-max-lines": "off",
+        "max-line-length": ["error", 80],
+        "modifier-name-mixedcase": "error",
+        "no-empty-blocks": "off",
+        "no-unused-vars": "error",
+        "ordering": "warn",
+        "private-vars-leading-underscore": ["warn", { "strict": false }],
+        "prettier/prettier": "error",
+        "var-name-mixedcase": "off"
+    }
+}
