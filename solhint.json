@@ -11,7 +11,7 @@
         "func-name-mixedcase": "off",
         "func-param-name-mixedcase": "error",
         "function-max-lines": "off",
-        "max-line-length": ["error", 80],
+        "max-line-length": ["warn", 80],
         "modifier-name-mixedcase": "error",
         "no-empty-blocks": "off",
         "no-unused-vars": "error",
