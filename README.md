@@ -34,7 +34,7 @@ Please install or have installed the following:
 ## Quickstart
 
 ```bash
-forge init <PROJECT_NAME> --template https://github.com/sevasoft/template-foundry
+forge init <PROJECT_NAME> --template https://github.com/sevamove/template-foundry
 cd <PROJECT_NAME>
 just init
 ```
