@@ -2,7 +2,7 @@
 
 <br/>
 <p align="center">
-<img src="https://book.getfoundry.sh/images/foundry-banner.png" alt="Foundry banner">
+<img src="https://getfoundry.sh/og-image.png" alt="Foundry banner">
 </a>
 </p>
 <br/>
@@ -11,9 +11,9 @@
 
 - [Chainlink](https://docs.chain.link/) (Allows securely connect smart contracts with off-chain data and services)
 - [Ethereum](https://ethereum.org/en/) (Decentralized, open-source blockchain with smart contract functionality)
-- [Foundry](https://eth-brownie.readthedocs.io/en/stable/toctree.html#) (Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.)
+- [Foundry](https://getfoundry.sh/) (Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.)
 - [Just](https://github.com/casey/just) (`just` is a handy way to save and run project-specific commands)
-- [OpenZeppelin](https://docs.openzeppelin.com/contracts/4.x/) (A library for secure smart contract development)
+- [OpenZeppelin](https://docs.openzeppelin.com/contracts/5.x/) (A library for secure smart contract development)
 - [Solidity](https://docs.soliditylang.org/en/latest/index.html) (High-level language for implementing smart contracts)
 
 # Getting Started
